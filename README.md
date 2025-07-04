@@ -51,11 +51,11 @@ E --> F[Interactive Bokeh Plot]
 ```
 ## 🧮 Pricing Models
 1️⃣ Linear Pricing Model
-```mermaid
+```bash
 P_{t+1} = P_t + α * (Occupancy / Capacity)
 ```
 2️⃣ Demand-Based Model
-```mermaid
+```bash
 Demand = 1.5 * Occ + 1.0 * Queue - 0.5 * Traffic + 0.75 * Special + 0.3 * VehicleTypeWeight
 Price = BasePrice * (1 + λ * NormalizedDemand)
 ```
@@ -66,7 +66,7 @@ Adjusts price based on average price of nearby lots (< 500m) and occupancy.
 ![Screenshot 2025-07-04 131838](https://github.com/user-attachments/assets/4135b750-2115-43ab-a2e0-bda5bd566f92)
 🚀 How to Run
 Install dependencies:
-```mermaid
+```bash
 pip install pandas numpy bokeh geopy openpyxl
 ```
 Open dynamic_pricing_simulation.ipynb
